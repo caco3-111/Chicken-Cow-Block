@@ -13,31 +13,43 @@
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "70E9A2A2EBAA85CA"
-		rewards: [
-			{
-				id: "3AD3021CB1A56406"
-				item: {
-					count: 1
-					id: "occultism:chalk_rainbow"
+	quests: [
+		{
+			id: "70E9A2A2EBAA85CA"
+			rewards: [
+				{
+					id: "3AD3021CB1A56406"
+					item: {
+						count: 1
+						id: "occultism:chalk_rainbow"
+					}
+					type: "item"
 				}
-				type: "item"
-			}
-			{
-				id: "7336EBAC6270C294"
-				item: {
-					count: 1
-					id: "occultism:ritual_satchel_t2"
+				{
+					id: "7336EBAC6270C294"
+					item: {
+						count: 1
+						id: "occultism:ritual_satchel_t2"
+					}
+					type: "item"
 				}
+			]
+			tasks: [{
+				id: "70ADBBC7132AAD14"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			id: "2DC1EDBB077C530F"
+			tasks: [{
+				id: "65FEDE0A5C6311FF"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:block/iesnium_ore" }, count: 1, id: "hostilenetworks:data_model" }
 				type: "item"
-			}
-		]
-		tasks: [{
-			id: "70ADBBC7132AAD14"
-			type: "checkmark"
-		}]
-		x: -1.0d
-		y: -1.5d
-	}]
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+	]
 }

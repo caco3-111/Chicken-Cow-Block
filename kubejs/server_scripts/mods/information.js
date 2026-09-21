@@ -27,7 +27,17 @@ RecipeViewerEvents.addInformation("item", event => {
         "潜行空手右键仪式火盆可进入鸡基岩层。在该维度再次潜行空手右键火盆可返回。"
     ]);
     event.add('ccb:nether_roost', [
-        "用8个下界鸡窝摆成4×4边框并去掉四角，再向内侧倒入一桶灵魂熔岩，即可开启通往异界的传送门。走进传送门前往异界，在异界同样建造可返回。"
+        "用8个下界鸡窝摆成4×4边框并去掉四角，再向内侧倒入一桶灵魂熔岩，即可开启通往异界的传送门。走进传送门前往异界，在异界同样建造可返回。",
+        "使用对应钻头破坏下界鸡窝可获得特殊鸡：蒸汽采矿钻头→光卤石鸡，柴油采矿钻头→钴鸡，电动采矿钻头→精金鸡。"
+    ]);
+    event.add('chicken_roost:c_carnallite', [
+        "使用现代工业化的蒸汽采矿钻头破坏下界鸡窝获得。"
+    ]);
+    event.add('chicken_roost:c_cobald', [
+        "使用现代工业化的柴油采矿钻头破坏下界鸡窝获得。"
+    ]);
+    event.add('chicken_roost:c_adamantine', [
+        "使用扩展工业化的电动采矿钻头破坏下界鸡窝获得。"
     ]);
     event.add(['ccb:eternal_pain_soul', 'mecrh:ender_chicken_spawn_egg'],[
         "Ender Chicken被奥术触媒吸收灵魂时,会掉落该物品"
@@ -42,7 +52,7 @@ RecipeViewerEvents.addInformation("item", event => {
         "当你受到mek模组激光的伤害时，你将获得它。"
     ]);
       event.add('chicken_roost:c_electric', [
-        "若想获得它，你必须使用自然闪电。"
+        "若想获得它，你必须使用自然闪电。将它放入ikun工坊可以产电，生产一次产出1000EU（可以吃等级加成和并行仓）。"
     ]);
 
 

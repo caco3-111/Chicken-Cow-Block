@@ -8,6 +8,6 @@
       "block.modern_industrialization.time_crystal_roost_speed_hatch":"Time Crystal Roost Speed Hatch",
       "block.modern_industrialization.ultimate_roost_speed_hatch":"Ultimate Roost Speed Hatch",
       "block.modern_industrialization.feijibei_roost_speed_hatch":"Feijibei Roost Speed Hatch",
-      "block.modern_industrialization.milk_chicken_steak_ex_item_fluid_input_hatch":"Milk Chicken Steak Input Hatch",
-      "block.modern_industrialization.milk_chicken_steak_ex_item_fluid_output_hatch":"Milk Chicken Steak Output Hatch"
+      "block.modern_industrialization.ultimate_energy_input_hatch":"Ultimate Energy Input Hatch",
+      "block.modern_industrialization.ultimate_energy_output_hatch":"Ultimate Energy Output Hatch"
 }
