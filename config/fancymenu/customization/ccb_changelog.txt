@@ -1,0 +1,63 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = ccb_changelog
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1790166598328
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+element {
+  element_type = shape
+  instance_identifier = a1f0c6d2-3b47-4c88-9e21-5d0a7b6c4e10-1790166598328
+  shape = rectangle
+  color = #00000099
+  anchor_point = mid-centered
+  sticky_anchor = true
+  stay_on_screen = true
+  x = 0
+  y = 0
+  width = 580
+  height = 270
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = b2e1d7c3-4c58-4d99-af32-6e1b8c7d5f21-1790166598328
+  source_mode = resource
+  source = [source:local]CHANGELOG.md
+  parse_markdown = true
+  shadow = true
+  interactable = true
+  enable_scrolling = true
+  auto_line_wrapping = true
+  anchor_point = mid-centered
+  sticky_anchor = true
+  stay_on_screen = true
+  x = 0
+  y = 0
+  width = 548
+  height = 238
+  scale = 1.0
+  text_border = 2
+  line_spacing = 3
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = c3d2e8b4-5d69-4eaa-b043-7f2c9d8e6a32-1790166598328
+  label = 返回
+  description = 回到主界面
+  anchor_point = bottom-centered
+  sticky_anchor = true
+  stay_on_screen = true
+  x = 0
+  y = -12
+  width = 100
+  height = 20
+  [executable_action_instance:d4e3f9c5-6e7a-4fbb-c154-803dae9f7b43-1790166598328][action_type:closegui] = close
+}
