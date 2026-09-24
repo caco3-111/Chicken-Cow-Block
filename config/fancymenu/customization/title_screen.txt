@@ -1,0 +1,48 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = title_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1790167109969
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+element {
+  element_type = text_v2
+  instance_identifier = 6f1c2b7a-8d34-4f0e-9a55-2c7e1b4d9f31-1790167109969
+  source_mode = resource
+  source = [source:local]config/fancymenu/current_version.txt
+  shadow = true
+  interactable = false
+  enable_scrolling = false
+  anchor_point = bottom-left
+  sticky_anchor = false
+  stay_on_screen = true
+  x = 0
+  y = -54
+  width = 320
+  height = 20
+  scale = 1.0
+  text_border = 2
+  line_spacing = 2
+}
+
+element {
+  element_type = custom_button
+  instance_identifier = e5f4a0d6-7f8b-40cc-d265-914ebf0a8c54-1790167109969
+  label = 更新日志
+  description = 查看这个整合包的更新内容
+  anchor_point = bottom-right
+  sticky_anchor = true
+  stay_on_screen = true
+  x = -8
+  y = -8
+  width = 100
+  height = 20
+  navigatable = true
+  [executable_action_instance:f6a5b1e7-8a9c-41dd-e376-a25fc01b9d65-1790167109969][action_type:opengui] = ccb_changelog
+}

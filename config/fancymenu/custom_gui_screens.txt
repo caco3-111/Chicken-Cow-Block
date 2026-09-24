@@ -3,3 +3,8 @@ type = custom_gui_screens
 overridden_screens {
 }
 
+custom_gui {
+  identifier = ccb_changelog
+  title = 更新日志
+  allow_esc = true
+}
