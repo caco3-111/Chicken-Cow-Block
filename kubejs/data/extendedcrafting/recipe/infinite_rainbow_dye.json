@@ -25,119 +25,55 @@
       "item": "avaritia:infinity_catalyst"
     },
     "E": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:white_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:white_dye"
     },
     "F": {
       "item": "avaritia:endest_pearl"
     },
     "G": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:blue_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:blue_dye"
     },
     "H": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:purple_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:purple_dye"
     },
     "I": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:brown_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:brown_dye"
     },
     "J": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:black_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:black_dye"
     },
     "K": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:gray_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:gray_dye"
     },
     "L": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:cyan_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:cyan_dye"
     },
     "M": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:red_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:red_dye"
     },
     "N": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:light_gray_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:light_gray_dye"
     },
     "O": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:green_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:green_dye"
     },
     "P": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:orange_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:orange_dye"
     },
     "Q": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:yellow_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:yellow_dye"
     },
     "R": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:lime_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:lime_dye"
     },
     "S": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:magenta_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:magenta_dye"
     },
     "T": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:light_blue_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:light_blue_dye"
     },
     "U": {
-      "items": "extendedcrafting:singularity",
-      "components": {
-        "extendedcrafting:singularity_id": "extendedcrafting:pink_dye"
-      },
-      "type": "neoforge:components"
+      "item": "minecraft:pink_dye"
     }
   },
   "result": {

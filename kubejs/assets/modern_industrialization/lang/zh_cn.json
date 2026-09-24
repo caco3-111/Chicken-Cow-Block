@@ -20,5 +20,9 @@
     "block.modern_industrialization.equivalent_tree":"等价之树",
     "rei_categories.modern_industrialization.equivalent_tree":"等价之树",
     "block.modern_industrialization.steel_equivalent_tree":"等价之树",
-    "rei_categories.modern_industrialization.steel_equivalent_tree":"等价之树"
+    "rei_categories.modern_industrialization.steel_equivalent_tree":"等价之树",
+    "block.modern_industrialization.feast_block_serving":"盛宴分装机",
+    "rei_categories.modern_industrialization.feast_block_serving":"盛宴分装机",
+    "block.modern_industrialization.electric_feast_block_serving":"盛宴分装机",
+    "rei_categories.modern_industrialization.electric_feast_block_serving":"盛宴分装机"
 }

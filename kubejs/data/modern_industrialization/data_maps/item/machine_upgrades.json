@@ -1,16 +1,16 @@
 {
   "values": {
     "ccb_core:kudikan_fumo": {
-      "stackMultiplier": 5
+      "extraMaxEu": 100
     },
     "ccb_core:daipaibulaotie_fumo": {
-      "stackMultiplier": 5
+      "extraMaxEu": 100
     },
     "data_energistics:fish_dan_": {
-      "stackMultiplier": 5
+      "extraMaxEu": 100
     },
     "data_energistics:qiuyeqaq2024": {
-      "stackMultiplier": 5
+      "extraMaxEu": 100
     }
   }
 }

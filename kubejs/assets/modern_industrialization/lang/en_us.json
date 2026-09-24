@@ -9,5 +9,9 @@
       "block.modern_industrialization.ultimate_roost_speed_hatch":"Ultimate Roost Speed Hatch",
       "block.modern_industrialization.feijibei_roost_speed_hatch":"Feijibei Roost Speed Hatch",
       "block.modern_industrialization.ultimate_energy_input_hatch":"Ultimate Energy Input Hatch",
-      "block.modern_industrialization.ultimate_energy_output_hatch":"Ultimate Energy Output Hatch"
+      "block.modern_industrialization.ultimate_energy_output_hatch":"Ultimate Energy Output Hatch",
+      "block.modern_industrialization.feast_block_serving":"Feast Block Serving",
+      "rei_categories.modern_industrialization.feast_block_serving":"Feast Block Serving",
+      "block.modern_industrialization.electric_feast_block_serving":"Feast Block Serving",
+      "rei_categories.modern_industrialization.electric_feast_block_serving":"Feast Block Serving"
 }

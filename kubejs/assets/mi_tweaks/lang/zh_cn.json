@@ -12,5 +12,9 @@
   "rei_categories.mi_tweaks.cooking_pot": "巨大厨锅",
   "block.mi_tweaks.cooking_pot": "巨大厨锅",
   "rei_categories.mi_tweaks.hongmeng_chicken_eye":"鸿蒙鸡眼",
-  "block.mi_tweaks.hongmeng_chicken_eye":"鸿蒙鸡眼"
+  "block.mi_tweaks.hongmeng_chicken_eye":"鸿蒙鸡眼",
+  "block.mi_tweaks.feast_block_serving": "盛宴分装机",
+  "rei_categories.mi_tweaks.feast_block_serving": "盛宴分装机",
+  "block.mi_tweaks.electric_feast_block_serving": "盛宴分装机",
+  "rei_categories.mi_tweaks.electric_feast_block_serving": "盛宴分装机"
 }

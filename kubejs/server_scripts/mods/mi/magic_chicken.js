@@ -153,6 +153,12 @@ ServerEvents.recipes(event => {
         .itemOut('apotheosis:infused_spawner_rune');
 
     event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('minecraft:lapis_lazuli')
+        .itemOut('ars_nouveau:source_gem');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('minecraft:lapis_block')
+        .itemOut('ars_nouveau:source_gem_block');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
         .itemIn('#c:gems/source')
         .itemIn('minecraft:feather')
         .itemIn('ars_nouveau:wilden_wing')

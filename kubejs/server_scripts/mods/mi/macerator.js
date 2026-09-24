@@ -23,12 +23,15 @@ ServerEvents.recipes(event => {
     const expandItems = key => {
         if (!key) return []
         if (key.type === 'item') return [key.id]
+        const result = []
         try {
-            const ids = Ingredient.of(`#${key.id}`).itemIds
-            return ids ? Array.from(ids, id => String(id)) : []
+            const ing = Ingredient.of(`#${key.id}`)
+            if (ing.itemIds) ing.itemIds.forEach(id => result.push(String(id)))
+            if (!result.length && ing.stacks) ing.stacks.forEach(stack => result.push(String(stack.id)))
         } catch (e) {
-            return []
+            return result
         }
+        return result
     }
 
     const existingItems = new Set()
@@ -53,12 +56,14 @@ ServerEvents.recipes(event => {
         const key = inputKey(json.input)
         const outputId = json.output && (json.output.id || json.output.item)
         if (!key || !outputId) return
+        if (outputId === 'mekanism:bio_fuel' || outputId === 'mekanism:block_bio_fuel') return
 
         const unique = `${key.type}:${key.id}:${key.count}`
         if (addedKeys.has(unique)) return
         if (key.type === 'tag' && existingTags.has(key.id)) return
 
         const items = expandItems(key)
+        if (key.type === 'tag' && !items.length) return
         if (items.some(id => existingItems.has(id))) return
 
         addedKeys.add(unique)
