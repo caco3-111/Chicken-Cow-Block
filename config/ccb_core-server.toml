@@ -199,6 +199,10 @@
 	# Default: 1024
 	# Range: 0 ~ 9223372036854775807
 	electricAmount = 1024
+	#Item produced by one lv0 chicken per production cycle. Default: 1
+	# Default: 1
+	# Range: > 0
+	itemAmount = 1
 
 [HCE]
 	#Duration for generated recipes. Default: 72000

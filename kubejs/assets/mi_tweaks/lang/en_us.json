@@ -12,5 +12,9 @@
   "rei_categories.mi_tweaks.cooking_pot": "Huge Cooking Pot",
   "block.mi_tweaks.cooking_pot": "Huge Cooking Pot",
   "rei_categories.mi_tweaks.hongmeng_chicken_eye":"Hongmeng Chicken Eye",
-  "block.mi_tweaks.hongmeng_chicken_eye":"Hongmeng Chicken Eye"
+  "block.mi_tweaks.hongmeng_chicken_eye":"Hongmeng Chicken Eye",
+  "block.mi_tweaks.feast_block_serving": "Feast Block Serving",
+  "rei_categories.mi_tweaks.feast_block_serving": "Feast Block Serving",
+  "block.mi_tweaks.electric_feast_block_serving": "Feast Block Serving",
+  "rei_categories.mi_tweaks.electric_feast_block_serving": "Feast Block Serving"
 }

@@ -182,4 +182,21 @@ ServerEvents.recipes(event => {
             ]
         }
     }).id('ccb:data_reassembler/residual_data_ore');
+
+    event.custom({
+        type: 'data_energistics:data_reassembler',
+        inputs: {
+            items: [
+                { item: 'data_energistics:residual_data_ore' }
+            ],
+            fluids: []
+        },
+        outputs: {
+            resource: {
+                key_type: 'data_energistics:manifest_binary',
+                resource: 'data_energistics:data',
+                amount: 10
+            }
+        }
+    }).id('ccb:data_reassembler/residual_data_ore_to_binary');
 });

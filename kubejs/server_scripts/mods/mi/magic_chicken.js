@@ -152,4 +152,67 @@ ServerEvents.recipes(event => {
         .fluidIn('8000x #c:experience')
         .itemOut('apotheosis:infused_spawner_rune');
 
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('minecraft:lapis_lazuli')
+        .itemOut('ars_nouveau:source_gem');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('minecraft:lapis_block')
+        .itemOut('ars_nouveau:source_gem_block');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('#c:gems/source')
+        .itemIn('minecraft:feather')
+        .itemIn('ars_nouveau:wilden_wing')
+        .itemIn('#minecraft:arrows')
+        .fluidIn('2000x sauce:source_fluid')
+        .itemOut('ars_nouveau:air_essence');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('#c:gems/source')
+        .itemIn('minecraft:water_bucket')
+        .itemIn('minecraft:snow_block')
+        .itemIn('minecraft:kelp')
+        .fluidIn('2000x sauce:source_fluid')
+        .itemOut('ars_nouveau:water_essence');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('#c:gems/source')
+        .itemIn('minecraft:flint_and_steel')
+        .itemIn('minecraft:torch')
+        .itemIn('minecraft:gunpowder')
+        .fluidIn('2000x sauce:source_fluid')
+        .itemOut('ars_nouveau:fire_essence');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('#c:gems/source')
+        .itemIn('#c:ingots/iron')
+        .itemIn('#c:seeds')
+        .itemIn('#minecraft:dirt')
+        .fluidIn('2000x sauce:source_fluid')
+        .itemOut('ars_nouveau:earth_essence');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('#c:gems/source')
+        .itemIn('minecraft:fermented_spider_eye')
+        .itemIn('minecraft:sugar')
+        .itemIn('minecraft:milk_bucket')
+        .fluidIn('2000x sauce:source_fluid')
+        .itemOut('ars_nouveau:abjuration_essence');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('#c:gems/source')
+        .itemIn('ars_nouveau:wilden_horn')
+        .itemIn('ars_nouveau:starbuncle_shards')
+        .itemIn('minecraft:book')
+        .fluidIn('2000x sauce:source_fluid')
+        .itemOut('ars_nouveau:conjuration_essence');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('#c:gems/source')
+        .itemIn('minecraft:stone_button')
+        .itemIn('minecraft:redstone')
+        .itemIn('minecraft:clock')
+        .fluidIn('2000x sauce:source_fluid')
+        .itemOut('ars_nouveau:manipulation_essence');
+    event.recipes.modern_industrialization.magic_chicken(32, 200)
+        .itemIn('#c:gems/source')
+        .itemIn('minecraft:wither_skeleton_skull')
+        .itemIn('minecraft:bone_meal')
+        .itemIn('minecraft:golden_apple')
+        .fluidIn('3000x sauce:source_fluid')
+        .itemOut('ars_elemental:anima_essence');
+
 });

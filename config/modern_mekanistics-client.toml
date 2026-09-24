@@ -1,0 +1,3 @@
+[gui]
+	#Whether chemical slots should show the usage line (input / output / IO) in their tooltip
+	chemical_slot_tooltips = true

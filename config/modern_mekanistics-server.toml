@@ -1,0 +1,12 @@
+[compat]
+	#Whether the parallel control hatch ('miparallelhatch') may multiply the batch size of chemical multiblock machines.
+	#Only effective when that mod is installed.
+	enable_parallel_hatch = true
+
+[machines]
+	#Whether a single fluid or chemical output should be spread over every matching/blank output slot,
+	#instead of only being allowed to fill one slot.
+	#This matches the behaviour of the 'mimsf' mod (allowSingleFluidOutputToAllSlots) for fluid hatches.
+	spread_outputs_to_all_slots = true
+	#disableOverlapsDetection
+	disable_overlaps_detection = true

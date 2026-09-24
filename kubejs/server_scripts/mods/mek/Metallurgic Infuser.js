@@ -23,13 +23,13 @@ event.recipes.mekanismMetallurgicInfusing(
   event.recipes.mekanismMetallurgicInfusing(
     '2x avaritia:ultimate_stew',
     'avaritia:ultimate_stew',
-    '1000x mekanism_extras:spectrum',
+    '1000x ccb:annihilation_matter',
     false
   )
   event.recipes.mekanismMetallurgicInfusing(
     '2x avaritia:cosmic_meatballs',
     'avaritia:cosmic_meatballs',
-    '1000x mekanism_extras:spectrum',
+    '1000x ccb:annihilation_matter',
     false
   )
 })

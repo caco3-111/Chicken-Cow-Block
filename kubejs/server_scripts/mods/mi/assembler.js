@@ -67,5 +67,13 @@ ServerEvents.recipes(event => {
         .itemIn('64x fluidsneo:auto_output_upgrade')
         .fluidIn('8000x jdte:life_fluid_source')
         .fluidIn('8000x justdirethings:time_fluid_source')
-         .itemOut('ccb:feijibei');
+        .itemOut('ccb:feijibei');
+        event.recipes.modern_industrialization.assembler(256, 100)
+        .itemIn('modern_industrialization:advanced_machine_hull')
+        .itemIn('64x fluidsneo:extended_fluid_cow_jar')
+        .itemIn('64x occultism:otherstone')
+        .itemIn('8x modern_industrialization:electronic_circuit')
+        .fluidIn('500x modern_industrialization:soldering_alloy')
+        .fluidIn('500x occultengineering:spirit_solution')
+        .itemOut('ccb_core:neo_generator');
 });

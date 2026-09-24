@@ -1,16 +1,16 @@
 {
   "values": {
     "ccb_core:kudikan_fumo": {
-      "stackMultiplier": 1000
+      "stackMultiplier": 5
     },
     "ccb_core:daipaibulaotie_fumo": {
-      "stackMultiplier": 1000
+      "stackMultiplier": 5
     },
     "data_energistics:fish_dan_": {
-      "stackMultiplier": 1000
+      "stackMultiplier": 5
     },
     "data_energistics:qiuyeqaq2024": {
-      "stackMultiplier": 1000
+      "stackMultiplier": 5
     }
   }
 }

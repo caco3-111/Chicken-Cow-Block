@@ -121,6 +121,18 @@ event.shaped('mi_tweaks:cooking_pot',[
     E:'farmersdelight:skillet',
     F:'occultism:spirit_campfire'
 })
+event.shaped('mi_tweaks:feast_block_serving',[
+    "ABA",
+    "CDE",
+    "FFF"
+],{
+    A:'minecraft:bowl',
+    B:'farmersdelight:roast_chicken_block',
+    C:'mi_tweaks:cutting_board',
+    D:'farmersdelight:cooking_pot',
+    E:'mi_tweaks:cooking_pot',
+    F:'minecraft:bricks'
+})
 event.shaped('modern_mekanistics:bigger_ambient_gas_collector',[
     "ABA",
     "BCB",

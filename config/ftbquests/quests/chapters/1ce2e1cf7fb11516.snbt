@@ -1,0 +1,128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1ce2e1cf7fb11516"
+	group: "6D3716139366C83E"
+	icon: {
+		components: {
+			"ftbquests:icon": "draconicevolution:block/awakened_draconium_block_side"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "1CE2E1CF7FB11516"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		can_repeat: true
+		id: "72CCA31D5AF8D465"
+		rewards: [{
+			id: "782AE94660702941"
+			item: {
+				components: {
+					"mekanism:block_data": {
+						block_entity_tag: {
+							bc_managed_data: {
+								anim_extract_state: 1.0d
+								component_position0: [I;
+									0
+									0
+									0
+								]
+								component_position1: [I;
+									0
+									-5
+									0
+								]
+								component_position2: [I;
+									0
+									0
+									6
+								]
+								component_position3: [I;
+									0
+									0
+									-6
+								]
+								component_position4: [I;
+									6
+									0
+									0
+								]
+								component_position5: [I;
+									-6
+									0
+									0
+								]
+								converted_fuel: 0.09500182804500001d
+								explosion_countdown: 2662
+								fail_safe_mode: 0b
+								field_drain: 533239
+								field_input_rate: Infinityd
+								fuel_use_rate: 0.001941623025d
+								generation_rate: 2330083.54361175d
+								max_saturation: 1000000000L
+								max_shield_charge: 1.0E8d
+								reactable_fuel: 10367.904998171964d
+								reactor_state: {
+									value: 6b
+								}
+								saturation: 614005478L
+								shader_animation_state: 1.0d
+								shield_charge: 404494.0d
+								stabilizer_axis: {
+									value: 1b
+								}
+								startup_initialized: 1b
+								structure_error: ""
+								structure_valid: 0b
+								temp_drain_factor: 1.0d
+								temperature: 4314.467115028585d
+							}
+							id: "draconicevolution:reactor_core"
+							x: 113
+							y: -63
+							z: -8
+						}
+						state: {
+							Name: "draconicevolution:reactor_core"
+						}
+					}
+				}
+				count: 1
+				id: "mekanism:cardboard_box"
+			}
+			type: "item"
+		}]
+		tasks: [
+			{
+				consume_items: true
+				id: "1388007140FAC055"
+				item: { count: 1, id: "draconicevolution:reactor_core" }
+				type: "item"
+			}
+			{
+				consume_items: true
+				count: 4L
+				id: "4A573876D0ED1D0E"
+				item: { count: 1, id: "draconicevolution:reactor_stabilizer" }
+				type: "item"
+			}
+			{
+				consume_items: true
+				id: "04852B431F52ACD8"
+				item: { count: 1, id: "draconicevolution:reactor_injector" }
+				type: "item"
+			}
+			{
+				consume_items: true
+				count: 8L
+				id: "51280CB6C830B193"
+				item: { count: 1, id: "draconicevolution:awakened_draconium_block" }
+				type: "item"
+			}
+		]
+		x: -1.5d
+		y: 0.0d
+	}]
+}

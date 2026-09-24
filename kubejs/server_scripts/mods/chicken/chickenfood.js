@@ -1,6 +1,8 @@
 ServerEvents.tags("item",event => {
     event.add('chicken_roost:chicken_food_tier_0','minecraft:wheat_seeds')
     event.add('ftb:chicken_stick','chicken_roost:chicken_stick')
+})
+ServerEvents.tags("block", event => {
     event.add('ccb:meteorite_crystal_blocks', [
         'ae2:quartz_block',
         'ae2:fluix_block',

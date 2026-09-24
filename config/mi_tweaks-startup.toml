@@ -38,7 +38,7 @@ machine_namespace = "mi_tweaks"
 	[machine_blueprints.required]
 		#The machine blueprint requirement mode to use for rendering hatch positions when holding hatches
 		#Allowed Values: DISABLED, INVENTORY, LEARN, INVENTORY_OR_LEARN
-		rendering_hatches = "INVENTORY_OR_LEARN"
+		rendering_hatches = "DISABLED"
 		#The machine blueprint requirement mode to use for placing machines
 		#Allowed Values: DISABLED, INVENTORY, LEARN, INVENTORY_OR_LEARN
 		placing = "DISABLED"

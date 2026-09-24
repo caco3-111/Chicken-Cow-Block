@@ -29,11 +29,20 @@ ServerEvents.recipes(event => {
         'extended_industrialization:materials/aluminum/assembler/tesla_winding',
         'modern_industrialization:assembler_generated/electric_age/machine/wiremill',
         'modern_industrialization:assembler_generated/steam_age/steel/wiremill',
+        'extended_industrialization:component/assembler/steel_combine',
+        'modern_industrialization:assembler_generated/steam_age/item_pipe',
+        'modern_industrialization:machines/steel_steam_chemical',
+        'extended_industrialization:machines/tesla_tower/assembler',
+        'modern_industrialization:assembler_generated/electric_age/component/craft/and_gate',
+        'modern_industrialization:materials/steel/assembler/tank',
+
+        'smfcore:steel_scaffolding_assembler',
+        'smfcore:stainless_steel_scaffolding_assembler',
+        'smfcore:titanium_scaffolding_assembler',
+
         // 装配机-仓室
-        'modern_industrialization:hatches/basic/assembler/energy_input_hatch',
-        'modern_industrialization:hatches/basic/assembler/energy_output_hatch',
-        'modern_industrialization:hatches/advanced/assembler/energy_input_hatch',
-        'modern_industrialization:hatches/advanced/assembler/energy_output_hatch',
+        'modern_industrialization:hatches/advanced/assembler/2slots_fluid_input_hatch',
+        'modern_industrialization:hatches/advanced/assembler/4slots_chemical_input_hatch',
 
         // 打包机
         'modern_industrialization:vanilla_recipes/packer/slimeblock',
@@ -47,10 +56,32 @@ ServerEvents.recipes(event => {
         'modern_industrialization:vanilla_recipes/cutting_machine/sticks'
 
     ].forEach(recipeId => event.remove({id: recipeId}));
-
+    // 切割机 木
     ['acacia', 'birch', 'cherry', 'crimson', 'dark_oak', 'jungle', 'mangrove', 'oak', 'spruce', 'warped'].forEach(wood => {
         event.remove({id: `modern_industrialization:cutting_machine/stripped/${wood}`});
         event.remove({id: `modern_industrialization:cutting_machine/stripped_wood/${wood}`});
+    });
+
+    // 装配机 仓室
+    ['basic', 'advanced', 'turbo', 'highly_advanced', 'quantum'].forEach(tier => {
+        event.remove({id: `modern_industrialization:hatches/${tier}/assembler/energy_input_hatch`})
+        event.remove({id: `modern_industrialization:hatches/${tier}/assembler/energy_output_hatch`})
+    });
+
+    // 装配机 机器外壳
+    const d = {
+        electric: ['clean_stainless_steel', 'frostproof', 'solid_titanium'],
+        steam: ['bronze', 'steel']
+    }
+    for (const age in d) d[age].forEach(name => {
+        const material = name.replace('clean_', '').replace('frostproof', 'aluminum').replace('solid_', '')
+        event.remove({id: `modern_industrialization:assembler_generated/${age}_age/${age==='electric'?`casing/${name}_`:`${name}/`}machine_casing`});
+        event.recipes.modern_industrialization.assembler(8, 200)
+            .itemIn(`7x #c:plates/${material}`)
+            .itemIn(`1x #c:gears/${material}`)
+            .itemIn(`1x #c:ingots/${material}`)
+            .itemOut(`1x modern_industrialization:${name}_machine_casing`)
+            .id(`ccb:assembler/${name}_machine_casing`);
     });
 
     event.recipes.modern_industrialization.chemical_reactor(10, 240)
@@ -120,5 +151,34 @@ ServerEvents.recipes(event => {
         .itemIn('#c:gears/steel')
         .itemOut('1x modern_industrialization:steel_wiremill')
         .id('ccb:assembler/steam_age/machine/wiremill');
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('5x modern_industrialization:bronze_curved_plate')
+        .itemIn('2x #c:gears/steel')
+        .itemIn('1x #c:plates/bronze')
+        .itemOut('16x modern_industrialization:item_pipe')
+        .id('ccb:assembler/steam_age/item_pipe');
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('7x modern_industrialization:aluminum_cable')
+        .itemIn('4x #c:plates/stainless_steel')
+        .itemIn('1x modern_industrialization:aluminum_wire')
+        .itemOut('1x extended_industrialization:aluminum_tesla_winding')
+        .id('ccb:materials/aluminum/assembler/tesla_winding');
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('1x modern_industrialization:resistor')
+        .itemIn('1x modern_industrialization:op_amp')
+        .itemIn('4x modern_industrialization:aluminum_wire')
+        .itemIn('1x modern_industrialization:copper_fine_wire')
+        .itemOut('1x modern_industrialization:and_gate')
+        .id('ccb:assembler/electric_age/component/craft/and_gate');
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('6x #c:plates/steel')
+        .itemIn('1x #c:glass_blocks')
+        .itemIn('1x modern_industrialization:steel_curved_plate')
+        .itemOut('1x modern_industrialization:steel_tank')
+        .id('ccb:materials/steel/assembler/tank');
 });
 

@@ -167,5 +167,6 @@
   "ccb.clapple.transmutation.start": "§c牛§6牛§e变§a身",
   "ccb.clapple.transmutation.complete": "%s牛牛马猴烧酒闪亮登场Ciallo～(∠・ω< )⌒★",
   "ccb.clapple.transmutation.in_progress": "牛牛变身ing...",
-  "ccb.clapple.transmutation.failed": "牛牛变身失败，没有变成马猴烧酒的资格😮‍💨"
+  "ccb.clapple.transmutation.failed": "牛牛变身失败，没有变成马猴烧酒的资格😮‍💨",
+  "chemical.ccb.annihilation_matter": "湮灭物质"
 }

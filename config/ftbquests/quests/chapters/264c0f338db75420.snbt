@@ -5723,36 +5723,17 @@
 				id: "modern_industrialization:uu_matter_bucket"
 			}
 			id: "580FB02F9178E853"
-			rewards: [
-				{
-					id: "140B6A7AB6D86845"
-					item: {
-						components: {
-							"mekanism:fluids": {
-								fluid_tanks: [{
-									amount: 8000
-									id: "modern_industrialization:uu_matter"
-								}]
-							}
-						}
-						count: 1
-						id: "mekanism:basic_fluid_tank"
-					}
-					team_reward: true
-					type: "item"
+			rewards: [{
+				count: 4
+				id: "5AEA0D935F668602"
+				item: {
+					count: 1
+					id: "modern_industrialization:quantum_circuit"
 				}
-				{
-					count: 4
-					id: "5AEA0D935F668602"
-					item: {
-						count: 1
-						id: "modern_industrialization:quantum_circuit"
-					}
-					random_bonus: 4
-					team_reward: true
-					type: "item"
-				}
-			]
+				random_bonus: 4
+				team_reward: true
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [
 				{

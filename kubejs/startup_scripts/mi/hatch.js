@@ -26,15 +26,14 @@ MIMachineEvents.registerHatches(event => {
 });
 
 ModernMekMachineEvents.registerChemicalHatches(event => {
-    const Consumer = Java.loadClass('java.util.function.Consumer');
-    event['itemFluidChemical(java.lang.String,java.lang.String,java.lang.String,long,long,java.util.function.Consumer,java.util.function.Consumer,java.util.function.Consumer)'](
+    event.itemFluidChemical(
         "milk_chicken_steak_ex",
         "Milk Chicken Steak",
         "data_casing",
         64000,
         64000,
-        new Consumer(items => items.addSlots(16, 20, 3, 3)),
-        new Consumer(fluids => fluids.addSlots(80, 20, 1, 4)),
-        new Consumer(chemicals => chemicals.addSlots(116, 20, 1, 4))
+        items => items.addSlots(16, 20, 3, 3),
+        fluids => fluids.addSlots(80, 20, 2, 2),
+        chemicals => chemicals.addSlots(122, 20, 2, 2)
     );
 });

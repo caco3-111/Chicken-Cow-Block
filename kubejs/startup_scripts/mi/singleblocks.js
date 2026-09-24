@@ -1,5 +1,4 @@
 MITweaksMachineEvents.registerPowerlessMachines(event => {
-    // TODO: 修改为普通机器以支持处理阵列？
     event.singleblock("feast_block_serving", "feast_block_serving",
         event.getRecipeType("ccb_core:feast_block_serving"), -1,
         event.progressBar(70, 33, "arrow"),
@@ -9,5 +8,5 @@ MITweaksMachineEvents.registerPowerlessMachines(event => {
         },
         "bricks", "feast_block_serving", true, false, true,
         4, true
-    );
-});
+    )
+})
